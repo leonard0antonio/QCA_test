@@ -50,7 +50,7 @@ O script utiliza o navegador Chromium via Playwright.
 
 Todos os 27 estados brasileiros (incluindo o Distrito Federal) são contemplados.
 
-As seções “Saúde” e “Meio Ambiente” não estão explicitamente disponíveis no site do IBGE na aba “Panorama”, portanto não foi possível coletar essas informações.
+As seções “Saúde” e “Meio Ambiente” não estão explicitamente disponíveis na aba “Panorama” do site do IBGE, ou não existem, portanto não foi possível coletar essas informações.
 
 Não é utilizada nenhuma API — apenas automação web e extração de dados direta do site do IBGE.
 
