@@ -57,6 +57,6 @@ Não é utilizada nenhuma API — apenas automação web e extração de dados d
 ---
 
 ## 📎 Links para Teste
-- [Repositório GitHub:]([https://reactjs.org/](https://github.com/leonard0antonio/QCA_test))A_test
+- [Repositório GitHub:]([https://reactjs.org/](https://github.com/leonard0antonio/QCA_test)
 - [Planilha Gerada (Google Sheets):](https://docs.google.com/spreadsheets/d/1Du5ZDtIN1MHhyHSNPfDJ_IN5Ln1I9PrO/edit?usp=sharing&ouid=118133169166389818601&rtpof=true&sd=true
 )  
