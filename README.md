@@ -35,7 +35,7 @@ Projeto automatizado para coletar informações do site do **IBGE** sobre todos 
    ```
 3.**Execute o script principal:**
    ```bash
-   python src/main.py
+   python main.py
    ````
 4.**Saída dos dados:**
 ```bash
