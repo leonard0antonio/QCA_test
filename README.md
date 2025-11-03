@@ -41,9 +41,10 @@ Projeto automatizado para coletar informações do site do **IBGE** sobre todos 
 ```bash
 data/estados_info_detalhado.xlsx
 ````
+
 ---
 
-##📝 Observações
+## 📝 Observações
 
 O script utiliza o navegador Chromium via Playwright.
 
@@ -55,7 +56,7 @@ Não é utilizada nenhuma API — apenas automação web e extração de dados d
 
 ---
 
-##📎 Links para Teste
+## 📎 Links para Teste
 - [Repositório GitHub:]([https://reactjs.org/](https://github.com/leonard0antonio/QCA_test))A_test
 - [Planilha Gerada (Google Sheets):](https://docs.google.com/spreadsheets/d/1Du5ZDtIN1MHhyHSNPfDJ_IN5Ln1I9PrO/edit?usp=sharing&ouid=118133169166389818601&rtpof=true&sd=true
 )  
