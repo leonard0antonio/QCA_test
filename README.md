@@ -25,12 +25,14 @@ Projeto automatizado para coletar informações do site do **IBGE** sobre todos 
    ```bash
    git clone https://github.com/leonard0antonio/QCA_test.git
    cd QCA_test
+   ```
 2. **Crie o ambiente virtual e instale as dependências:**
    ```bash
    python -m venv venv
    venv\Scripts\activate
    pip install -r requirements.txt
    playwright install chromium
+   ```
 3.**Execute o script principal:**
    ```bash
    python src/main.py
@@ -39,8 +41,9 @@ Projeto automatizado para coletar informações do site do **IBGE** sobre todos 
 ```bash
 data/estados_info_detalhado.xlsx
 ````
+---
 
-📝 **Observações**
+##📝 Observações
 
 O script utiliza o navegador Chromium via Playwright.
 
@@ -52,9 +55,7 @@ Não é utilizada nenhuma API — apenas automação web e extração de dados d
 
 ---
 
-📎 Links para Teste
-Repositório GitHub: https://github.com/leonard0antonio/QCA_test
-Planilha Gerada (Google Sheets):
-https://docs.google.com/spreadsheets/d/1Du5ZDtIN1MHhyHSNPfDJ_IN5Ln1I9PrO/edit?usp=sharing&ouid=118133169166389818601&rtpof=true&sd=true
-
-
+##📎 Links para Teste
+- [Repositório GitHub:]([https://reactjs.org/](https://github.com/leonard0antonio/QCA_test))A_test
+- [Planilha Gerada (Google Sheets):](https://docs.google.com/spreadsheets/d/1Du5ZDtIN1MHhyHSNPfDJ_IN5Ln1I9PrO/edit?usp=sharing&ouid=118133169166389818601&rtpof=true&sd=true
+)  
