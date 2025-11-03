@@ -1,0 +1,14 @@
+
+venv/
+
+__pycache__/
+*.pyc
+
+data/*.xlsx
+
+.vscode/
+
+*.log
+*.tmp
+.DS_Store
+
