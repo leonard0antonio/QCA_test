@@ -26,16 +26,18 @@ Projeto automatizado para coletar informações do site do **IBGE** sobre todos 
    git clone https://github.com/leonard0antonio/QCA_test.git
    cd QCA_test
 
-2.Crie o ambiente virtual e instale as dependências:
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-playwright install chromium
+2. **Crie o ambiente virtual e instale as dependências:**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+   playwright install chromium
 
-3.Execute o script principal:
-python src/main.py
 
-4.Saída dos dados:
+3.**Execute o script principal:**
+   python src/main.py
+
+4.**Saída dos dados:**
 data/estados_info_detalhado.xlsx
 
 📝 Observações
