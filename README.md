@@ -1,31 +1,62 @@
-# Coleta de Dados IBGE (Playwright)
+# 📊 Coleta de Dados IBGE (Playwright)
 
-Projeto automatizado para coletar informações do IBGE sobre todos os estados do Brasil,
-extraindo dados de **População**, **Educação**, **Economia**, **Trabalho e Rendimento** e **Território**.
+Projeto automatizado para coletar informações do site do **IBGE** sobre todos os estados do Brasil, extraindo dados de:
 
-## 🧰 Tecnologias
-- Python 3.10+
-- Playwright
-- Pandas
-- OpenPyXL
+- **População**
+- **Educação**
+- **Economia**
+- **Trabalho e Rendimento**
+- **Território**
 
-## 🚀 Como executar
+---
 
-1. Clone este repositório:
+## 🧰 Tecnologias Utilizadas
+
+- **Python 3.10+**
+- **Playwright**
+- **Pandas**
+- **OpenPyXL**
+
+---
+
+## 🚀 Como Executar
+
+1. **Clone este repositório:**
    ```bash
-   git clone https://github.com/seuusuario/coleta-ibge.git
-   cd coleta-ibge
+   git clone https://github.com/leonard0antonio/QCA_test.git
+   cd QCA_test
+   ```
+2. **Crie o ambiente virtual e instale as dependências:**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+   playwright install chromium
+   ```
+3.**Execute o script principal:**
+   ```bash
+   python main.py
+   ````
+4.**Saída dos dados:**
+```bash
+data/estados_info_detalhado.xlsx
+````
 
-2. Crie o ambiente virtual e instale as dependências:
-  ```bash
-  python -m venv venv
-  venv\Scripts\activate
-  pip install -r requirements.txt
-  playwright install chromium
+---
 
-3. Execute o script principal:
- ```bash
-  python src/main.py
+## 📝 Observações
 
-4. A planilha será salva automaticamente em:
- data/estados_info_detalhado.xlsx
+O script utiliza o navegador Chromium via Playwright.
+
+Todos os 27 estados brasileiros (incluindo o Distrito Federal) são contemplados.
+
+As seções “Saúde” e “Meio Ambiente” não estão explicitamente disponíveis na aba “Panorama” do site do IBGE, ou não existem, portanto não foi possível coletar essas informações.
+
+Não é utilizada nenhuma API — apenas automação web e extração de dados direta do site do IBGE.
+
+---
+
+## 📎 Links para Teste
+- [Repositório GitHub:](https://github.com/leonard0antonio/QCA_test)
+- [Planilha Gerada (Google Sheets):](https://docs.google.com/spreadsheets/d/1Du5ZDtIN1MHhyHSNPfDJ_IN5Ln1I9PrO/edit?usp=sharing&ouid=118133169166389818601&rtpof=true&sd=true
+)  
