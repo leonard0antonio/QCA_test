@@ -19,6 +19,12 @@ Projeto automatizado para coletar informações do site do **IBGE** sobre todos 
 
 ---
 
+## 📸 Demonstração  
+
+![Demo da aplicação](demo.gif)
+
+---
+
 ## 🚀 Como Executar
 
 1. **Clone este repositório:**
